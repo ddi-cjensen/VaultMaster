@@ -4,6 +4,7 @@ ALLBUILDS_FULLPATH_WIN = 'V:\\NPI VAULT\\Fusion (IO)\\ALLBUILDS\\'
 ALLBUILDS_FULLPATH_UBUNTU = '/media/vault/NPI VAULT/Fusion (IO)/ALLBUILDS/'
 ARTIFACTS_INDEX_JSON = 'artifacts_index.json'
 
+
 # note: this class serves as the CLI tool for automatically generating directories in ALLBUILDS
 class VaultMaster:
     def __init__(self, pn: str, sn: str):
@@ -34,7 +35,7 @@ class VaultMaster:
         '''
         pass
 
-    # todo: handle arguments to select VaultMaster features
+    # todo: handle arguments in selecting VaultMaster features
     # todo: establish connection to Fusion.IO vault for both serial number and part number maintenance
     # todo: establish connection to Syspro mostly for part number related auto-generation
     # todo: if no connection to Syspro then only serial directory generation allowed
