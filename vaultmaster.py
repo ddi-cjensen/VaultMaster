@@ -20,7 +20,8 @@ class VaultMaster:
         '''
         :return index:
         '''
-        pass
+        index = {}
+        return index
 
     # todo: validates part number with Syspro by retrieving description of part number
     # todo: checks description for Fusion product indicators
